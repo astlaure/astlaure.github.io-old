@@ -1,0 +1,17 @@
+<div class="post-card mb-4">
+  <div class="values">
+    <h4 class="post-title">
+      {{ post.data.title }}
+      {%- for tag in post.data.tags | keepCategories -%}
+        <span class="tag">{{ tag | upper }}</span>
+      {%- endfor -%}
+    </h4>
+    <p>{{ post.data.description }}</p>
+    <a href="{{ post.url }}">Read more</a>
+  </div>
+  {%- if post.data.thumbnail -%}
+    <div class="thumbnail">
+      <img src="{{ '/assets/images/' + post.data.thumbnail | url }}" alt="thumbnail">
+    </div>
+  {%- endif -%}
+</div>

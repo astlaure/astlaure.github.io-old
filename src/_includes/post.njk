@@ -1,0 +1,21 @@
+---
+layout: default.njk
+body: post-template
+---
+
+<div class="small-banner">
+  <h1>{{ title }}</h1>
+  <div class="subtitle">
+    <i>{{ date | formatDate }}</i>
+    {% for tag in tags | keepCategories %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="post-container">
+  {% if thumbnail %}
+    <img src="{{ '/assets/images/' + thumbnail | url }}" alt="thumbnail">
+  {% endif %}
+  {{ content | safe }}
+</div>

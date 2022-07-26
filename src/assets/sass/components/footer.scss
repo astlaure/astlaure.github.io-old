@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+
+.footer {
+  margin-top: 4rem;
+
+  .container {
+    border-top: thin solid $gray-medium;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  i {
+    color: $gray-dark;
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+@use "../abstracts/variables" as *;
+
+.navbar {
+  position: fixed;
+  height: 4rem;
+  width: 100%;
+  line-height: 1;
+  background: $white-dark;
+  top: 0;
+
+  .container {
+    display: flex;
+  }
+
+  .nav-brand {
+    align-items: center;
+    display: flex;
+
+    a {
+      font-size: $font-xl;
+      font-weight: 500;
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+
+    > * {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+    a {
+      padding: 0.25rem;
+    }
+  }
+
+  .nav-socials {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+
+    svg {
+      width: 24px;
+    }
+
+    > * {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      padding: 0.25rem;
+    }
+  }
+}

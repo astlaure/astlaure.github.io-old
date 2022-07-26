@@ -1,0 +1,21 @@
+{
+  "name": "astlaure.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "start:sass": "sass --watch src/assets/sass/style.scss:src/assets/css/style.css",
+    "build": "sass src/assets/sass/style.scss:src/assets/css/style.css && eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "sanitize.css": "^13.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.54.0"
+  }
+}
