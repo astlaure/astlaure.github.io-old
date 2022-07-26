@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "start:sass": "sass --watch src/assets/sass/style.scss:src/assets/css/style.css",
-    "build": "sass src/assets/sass/style.scss:src/assets/css/style.css && eleventy"
+    "start:sass": "sass --watch src/assets/sass/style.scss:public/assets/css/style.css",
+    "build": "sass src/assets/sass/style.scss:public/assets/css/style.css && eleventy"
   },
   "keywords": [],
   "author": "",

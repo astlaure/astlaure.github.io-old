@@ -1,7 +1,6 @@
 ---
 layout: post.njk
 date: 2022-07-24
-tags: [architecture]
 title: When to use GraphQL
 description: Lorem ipsum dolor sit amet
 thumbnail: architecture/graphql-logo.png

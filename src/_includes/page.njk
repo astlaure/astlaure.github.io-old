@@ -4,13 +4,15 @@ body: 'page-template'
 ---
 
 <div class="small-banner">
-  <h1>{{ (category if category else title) | capitalize }}</h1>
+  <h1>{{ title | capitalize }}</h1>
 </div>
 
 <div class="container">
   <div class="flex-grid">
     <div class="column md-8">
       {{ content | safe }}
+
+      {% include 'components/pagination.njk' %}
     </div>
     <div class="column md-4">
       <h3 class="category-title">Categories</h3>

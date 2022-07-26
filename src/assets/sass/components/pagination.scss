@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as *;
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    color: $gray-medium;
+  }
+}

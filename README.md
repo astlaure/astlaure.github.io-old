@@ -6,7 +6,11 @@
 
 /posts/ => long list of posts
 
+/posts/page-2 => page 2
+
 /posts/{category}/ => long list of only category posts
+
+/posts/{category}/page-2 => page 2
 
 /posts/{category}/{slug}/ => specific post
 
