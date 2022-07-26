@@ -15,7 +15,7 @@ layout: default.njk
     <div class="column md-4">
       <h3>Categories</h3>
       {% for tag in collections.postTags %}
-        <a href="{{ '/posts/' + tag | url }}"><h6>{{ tag | upper }}</h6></a>
+        <a href="{{ '/posts/' + tag + '/' | url }}"><h6>{{ tag | upper }}</h6></a>
       {% endfor %}
     </div>
   </div>

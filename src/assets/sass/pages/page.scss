@@ -1,9 +1,14 @@
+@use "../abstracts/mixins" as *;
+
 .page-template {
   .small-banner {
     margin-bottom: 4rem;
   }
 
   .category-title {
-    margin-top: 0;
+
+    @include size-medium() {
+      margin-top: 0;
+    }
   }
 }
