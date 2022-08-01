@@ -1,10 +1,10 @@
 @use "../abstracts/variables" as *;
 
 .icon {
-  fill: $salmon;
+  fill: $color-primary;
   transition: all 150ms ease-out;
 
   &:hover {
-    fill: darken($salmon, 15%);
+    fill: darken($color-primary, 15%);
   }
 }

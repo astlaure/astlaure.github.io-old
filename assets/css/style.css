@@ -390,12 +390,12 @@ body {
 }
 
 a {
-  color: #fa8072;
+  color: #36a1d4;
   text-decoration: none;
   transition: all 150ms ease-out;
 }
 a:hover {
-  color: #f73d28;
+  color: #21749c;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -521,7 +521,7 @@ h6 {
 }
 .post-card .values h4 .tag {
   font-size: 0.75rem;
-  background: pink;
+  background: #77bfe2;
   border-radius: 5px;
   padding: 0.35rem;
   margin-left: 1rem;
@@ -543,11 +543,11 @@ h6 {
 }
 
 .icon {
-  fill: #fa8072;
+  fill: #36a1d4;
   transition: all 150ms ease-out;
 }
 .icon:hover {
-  fill: #f73d28;
+  fill: #21749c;
 }
 
 .navbar {
@@ -587,7 +587,7 @@ h6 {
   width: 26px;
   height: 2px;
   border-radius: 5px;
-  background: #fa8072;
+  background: #36a1d4;
   display: block;
   margin-bottom: 6px;
 }
@@ -767,7 +767,7 @@ h6 {
 }
 .post-template .small-banner .subtitle .tag {
   font-size: 0.75rem;
-  background: pink;
+  background: #77bfe2;
   border-radius: 5px;
   padding: 0.35rem;
   margin-left: 1rem;
@@ -794,14 +794,14 @@ h6 {
   min-height: 32vh;
 }
 .error-404-template .container.error-container .error-btn {
-  background: #fa8072;
+  background: #36a1d4;
   color: #ffffff;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   transition: all 150ms ease-out;
 }
 .error-404-template .container.error-container .error-btn:hover {
-  background: #f73d28;
+  background: #21749c;
 }
 
 /*# sourceMappingURL=style.css.map */
