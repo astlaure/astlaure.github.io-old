@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.0",
     "sanitize.css": "^13.0.0"
   },
   "devDependencies": {
-    "sass": "^1.54.0"
+    "sass": "^1.58.1"
   }
 }
