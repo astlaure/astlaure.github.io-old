@@ -20,6 +20,18 @@
       }
     }
 
+    &.md-5 {
+      @include size-medium() {
+        width: calc(100% / 12 * 5);
+      }
+    }
+
+    &.md-7 {
+      @include size-medium() {
+        width: calc(100% / 12 * 7);
+      }
+    }
+
     &.md-8 {
       @include size-medium() {
         width: calc(100% / 12 * 8);

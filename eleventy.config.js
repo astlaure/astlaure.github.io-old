@@ -1,13 +1,13 @@
 const fs = require('fs');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('./src/assets');
-  eleventyConfig.addPassthroughCopy('./src/favicon.ico');
+  eleventyConfig.addPassthroughCopy({'./src/assets/favicon.ico': 'favicon.ico'});
+  eleventyConfig.addPassthroughCopy({'./src/assets/images': 'assets/images'});
 
   eleventyConfig.addWatchTarget('./src/assets');
 
   eleventyConfig.addFilter('formatDate', dateObj => {
-    return dateObj.toLocaleDateString('en-CA', { year: 'numeric', month: 'short', day: '2-digit' });
+    return dateObj.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: '2-digit', timeZone: 'utc' });
   });
 
   eleventyConfig.addFilter('keepCategories', tags => {
@@ -51,7 +51,7 @@ module.exports = function(eleventyConfig) {
     pathPrefix: "/",
 
     dir: {
-      input: 'src',
+      input: 'src/pages',
       output: 'public',
     },
   };

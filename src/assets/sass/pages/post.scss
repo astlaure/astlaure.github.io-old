@@ -15,7 +15,8 @@
 
       .tag {
         font-size: 0.75rem;
-        background: $color-primary-pale;
+        color: $color-secondary;
+        border: 1px solid $color-secondary;
         border-radius: 5px;
         padding: 0.35rem;
         margin-left: 1rem;

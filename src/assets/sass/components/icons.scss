@@ -5,6 +5,6 @@
   transition: all 150ms ease-out;
 
   &:hover {
-    fill: darken($color-primary, 15%);
+    fill: $color-secondary;
   }
 }

@@ -21,7 +21,7 @@
       transition: all 150ms ease-out;
 
       &:hover {
-        background: darken($color-primary, 15%);
+        background: $color-secondary;
       }
     }
   }

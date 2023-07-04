@@ -3,7 +3,7 @@
 
 .post-card {
   display: flex;
-  border: thin solid $gray-medium;
+  border: thin solid $gray;
   padding: 1rem;
   border-radius: 5px;
 
@@ -18,7 +18,8 @@
 
       .tag {
         font-size: 0.75rem;
-        background: $color-primary-pale;
+        color: $color-secondary;
+        border: 1px solid $color-secondary;
         border-radius: 5px;
         padding: 0.35rem;
         margin-left: 1rem;
